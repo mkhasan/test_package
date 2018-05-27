@@ -14,3 +14,5 @@ http://wiki.ros.org/IDEs
 http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv
 
 https://answers.ros.org/question/206257/catkin-use-ros-message-from-another-package/
+
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
