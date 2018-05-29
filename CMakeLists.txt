@@ -199,10 +199,15 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -ggdb -Wall") 
+
 add_executable(test_publisher src/test_publisher.cpp)
 add_executable(test_subscriber src/test_subscriber.cpp)
 add_executable(test_client src/test_client.cpp)
+add_executable(test_logmsg src/test_logmsg.cpp)
+
 
 target_link_libraries(test_publisher ${catkin_LIBRARIES})
 target_link_libraries(test_subscriber ${catkin_LIBRARIES})
 target_link_libraries(test_client ${catkin_LIBRARIES})
+target_link_libraries(test_logmsg ${catkin_LIBRARIES})

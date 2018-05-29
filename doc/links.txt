@@ -19,3 +19,13 @@ https://help.github.com/articles/adding-an-existing-project-to-github-using-the-
 
 GDB Tutorials ->
 	https://web.eecs.umich.edu/~sugih/pointers/summary.html
+
+http://wiki.ros.org/roscpp/Overview/Logging
+
+http://wiki.ros.org/rosconsole
+
+Debugging ros node ->
+	https://www.packtpub.com/mapt/book/hardware_and_creative/9781783987580/3/ch03lvl1sec18/debugging-ros-nodes
+
+ros node using gdb ->
+	https://answers.ros.org/question/211226/debug-gdb-and-ros/
